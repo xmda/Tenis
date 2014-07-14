@@ -6,7 +6,7 @@
 import javax.swing.table.DefaultTableModel;
 /**
  *
- * @author Eli
+ * @author CHURITA
  */
 public class Frances extends javax.swing.JFrame {
 
