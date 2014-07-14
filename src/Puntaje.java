@@ -14,67 +14,67 @@ public class Puntaje {
     String j1="Jugador 1";
     String j2="Jugador 2";
     
-    public String scoreIng(int [] pun, String [] idioma){
+    public String scoreIng(int [] puntos, String [] idioma){
         String [] g;
         g = idioma;
-        if(pun[0]==0 && pun[1]==0){
+        if(puntos[0]==0 && puntos[1]==0){
         return idioma[0]+("-")+idioma[9];
       	} else {
-      	 	if(pun[0]==0 && pun[1]==15){
+      	 	if(puntos[0]==0 && puntos[1]==15){
                     return idioma[0]+("-")+idioma[1];} 
                 else {
-       	  	if(pun[0]==0 && pun[1]==30){
+       	  	if(puntos[0]==0 && puntos[1]==30){
                     return idioma[0]+("-")+idioma[2];} 
                 else {
-                if(pun[0]==0 && pun[1]==40){
+                if(puntos[0]==0 && puntos[1]==40){
                     return idioma[0]+("-")+idioma[3];}
                 else {
-                if(pun[0]==15 && pun[1]==0){
+                if(puntos[0]==15 && puntos[1]==0){
                     return idioma[1]+("-")+idioma[0];} 
                 else {
-                if(pun[0]==30 && pun[1]==0){
+                if(puntos[0]==30 && puntos[1]==0){
                     return idioma[2]+("-")+idioma[0];}
                 else {
-                if(pun[0]==40 && pun[1]==0){
+                if(puntos[0]==40 && puntos[1]==0){
                     return idioma[3]+("-")+idioma[0];}
                 else {
-                if(pun[0]==15 && pun[1]==15){
+                if(puntos[0]==15 && puntos[1]==15){
       	            return idioma[1]+("-")+idioma[9];}
                 else {
-	        if(pun[0]==15 && pun[1]==30){
+	        if(puntos[0]==15 && puntos[1]==30){
 	            return idioma[1]+("-")+idioma[2];}
                 else {
-                if(pun[0]==15 && pun[1]==40){
+                if(puntos[0]==15 && puntos[1]==40){
 	            return idioma[1]+("-")+idioma[3];}
                 else {                        
-                if(pun[0]==30 && pun[1]==15){
+                if(puntos[0]==30 && puntos[1]==15){
                     return idioma[2]+("-")+idioma[1];}
                 else {
-	        if(pun[0]==40 && pun[1]==15){
+	        if(puntos[0]==40 && puntos[1]==15){
                     return idioma[3]+("-")+idioma[1];}
                 else {
-		if((pun[0]==30 && pun[1]==30)){
+		if((puntos[0]==30 && puntos[1]==30)){
                     return idioma[2]+("-")+idioma[9];}
                 else {
-   		if(pun[0]==30 && pun[1]==40){
+   		if(puntos[0]==30 && puntos[1]==40){
                     return idioma[2]+("-")+idioma[3];}
                 else {
-                if(pun[0]==40 && pun[1]==30){
+                if(puntos[0]==40 && puntos[1]==30){
                     return idioma[3]+("-")+idioma[2];}
                 else {
-                if((pun[0]==50 && pun[1]==0) || (pun[0]==50 && pun[1]==15) || (pun[0]==50 && pun[1]==30) || (pun[0]==60 && pun[1]==40) || (pun[0]==70 && pun[1]==50) || (pun[0]==80 && pun[1]==60)){
+                if((puntos[0]==50 && puntos[1]==0) || (puntos[0]==50 && puntos[1]==15) || (puntos[0]==50 && puntos[1]==30) || (puntos[0]==60 && puntos[1]==40) || (puntos[0]==70 && puntos[1]==50) || (puntos[0]==80 && puntos[1]==60)){
                     return idioma[4];}
                 else{
-                if((pun[0]==0 && pun[1]==50) || (pun[0]==15 && pun[1]==50) || (pun[0]==30 && pun[1]==50) || (pun[0]==40 && pun[1]==60) || (pun[0]==50 && pun[1]==70) || (pun[0]==60 && pun[1]==80)){
+                if((puntos[0]==0 && puntos[1]==50) || (puntos[0]==15 && puntos[1]==50) || (puntos[0]==30 && puntos[1]==50) || (puntos[0]==40 && puntos[1]==60) || (puntos[0]==50 && puntos[1]==70) || (puntos[0]==60 && puntos[1]==80)){
                     return idioma[5];}
                 else {
-                if((pun[0]==40 && pun[1]==40) || (pun[0]==50 && pun[1]==50) || (pun[0]==60 && pun[1]==60) || (pun[0]==70 && pun[1]==70) || (pun[0]==80 && pun[1]==80)){
+                if((puntos[0]==40 && puntos[1]==40) || (puntos[0]==50 && puntos[1]==50) || (puntos[0]==60 && puntos[1]==60) || (puntos[0]==70 && puntos[1]==70) || (puntos[0]==80 && puntos[1]==80)){
                     return idioma[6];}
                 else {
-                if((pun[0]==50 && pun[1]==40) || (pun[0]==60 && pun[1]==50) || (pun[0]==70 && pun[1]==60)){ 
+                if((puntos[0]==50 && puntos[1]==40) || (puntos[0]==60 && puntos[1]==50) || (puntos[0]==70 && puntos[1]==60)){ 
                     return idioma[7];}
                 else {
-                if( (pun[0]==40 && pun[1]==50) || (pun[0]==50 && pun[1]==60) || (pun[0]==60 && pun[1]==70)){
+                if( (puntos[0]==40 && puntos[1]==50) || (puntos[0]==50 && puntos[1]==60) || (puntos[0]==60 && puntos[1]==70)){
                     return idioma[8];}
                     }}}}}}}}}}}}}}}}}}}
         return "¿Quieres volver a jugar?";
