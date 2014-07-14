@@ -8,7 +8,7 @@
 
 /**
  *
- * @author Eli
+ * @author CHURITA
  */
 public class Puntaje {
     String j1="Jugador 1";
