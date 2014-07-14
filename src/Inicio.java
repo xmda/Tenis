@@ -6,7 +6,7 @@
 
 /**
  *
- * @author Lucho
+ * @author CHURITA
  */
 public class Inicio extends javax.swing.JFrame {
 
