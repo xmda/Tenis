@@ -7,7 +7,7 @@
 import javax.swing.table.DefaultTableModel;
 /**
  *
- * @author Eli
+ * @author CHURITA
  */
 public class Español extends javax.swing.JFrame {
 
