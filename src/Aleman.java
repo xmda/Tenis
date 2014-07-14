@@ -7,7 +7,7 @@
 import javax.swing.table.DefaultTableModel;
 /**
  *
- * @author Eli
+ * @author CHURITA
  */
 public class Aleman extends javax.swing.JFrame {
 
